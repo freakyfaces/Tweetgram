@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="70.0" prefWidth="520.0" styleClass="light-grey-background" stylesheets="@../styles.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="phase3.client.view.messaging.pv.ContactController">
+   <children>
+      <Pane prefWidth="520.0">
+         <children>
+            <Circle fx:id="profilePic" fill="DODGERBLUE" layoutX="35.0" layoutY="35.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label fx:id="lastMessage" layoutX="72.0" layoutY="39.0" prefHeight="32.0" prefWidth="442.0" textOverrun="WORD_ELLIPSIS" />
+            <Label fx:id="name" layoutX="66.0" layoutY="14.0" prefHeight="32.0" prefWidth="356.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="unseen" layoutX="478.0" layoutY="14.0" prefHeight="32.0" prefWidth="42.0" />
+         </children>
+      </Pane>
+   </children>
+</HBox>

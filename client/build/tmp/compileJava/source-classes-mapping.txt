@@ -1,0 +1,130 @@
+phase3/client/view/setting/privacy/ChangePassFormListener.java
+ phase3.client.view.setting.privacy.ChangePassFormListener
+phase3/client/listener/StringListener.java
+ phase3.client.listener.StringListener
+phase3/client/view/explorer/ExplorerPageController.java
+ phase3.client.view.explorer.ExplorerPageController
+phase3/client/view/messaging/categories/CategoriesOverviewController.java
+ phase3.client.view.messaging.categories.CategoriesOverviewController
+phase3/client/view/MainApp.java
+ phase3.client.view.MainApp
+phase3/client/view/timeline/TimelineTweetController.java
+ phase3.client.view.timeline.TimelineTweetController
+phase3/client/view/messaging/saved/SMessageController.java
+ phase3.client.view.messaging.saved.SMessageController
+phase3/client/view/explorer/search/ProfileStringListener.java
+ phase3.client.view.explorer.search.ProfileStringListener
+phase3/client/view/timeline/TimelinePageController.java
+ phase3.client.view.timeline.TimelinePageController
+phase3/client/view/personalPage/editProfile/EditProfileFormListener.java
+ phase3.client.view.personalPage.editProfile.EditProfileFormListener
+phase3/client/view/personalPage/tweet/TweetController.java
+ phase3.client.view.personalPage.tweet.TweetController
+phase3/client/view/messaging/saved/SavedMessageController.java
+ phase3.client.view.messaging.saved.SavedMessageController
+phase3/client/view/messaging/MessagingPageStringListener.java
+ phase3.client.view.messaging.MessagingPageStringListener
+phase3/client/view/setting/privacy/PrivacyPageController.java
+ phase3.client.view.setting.privacy.PrivacyPageController
+phase3/client/view/setting/SettingPageStringListener.java
+ phase3.client.view.setting.SettingPageStringListener
+phase3/client/listener/FormListener.java
+ phase3.client.listener.FormListener
+phase3/client/config/CategoryStates.java
+ phase3.client.config.CategoryStates
+phase3/client/view/messaging/pv/ContactController.java
+ phase3.client.view.messaging.pv.ContactController
+phase3/client/view/explorer/ExplorerStringListener.java
+ phase3.client.view.explorer.ExplorerStringListener
+phase3/client/view/personalPage/lists/ListsController.java
+ phase3.client.view.personalPage.lists.ListsController
+phase3/client/view/messaging/pv/ChatPageController.java
+ phase3.client.view.messaging.pv.ChatPageController
+phase3/client/view/personalPage/showTweets/ShowTweetController.java
+ phase3.client.view.personalPage.showTweets.ShowTweetController
+phase3/client/controller/EventSender.java
+ phase3.client.controller.EventSender
+phase3/client/view/messaging/categories/CategoryItemController.java
+ phase3.client.view.messaging.categories.CategoryItemController
+phase3/client/view/authentication/StartStringListener.java
+ phase3.client.view.authentication.StartStringListener
+phase3/client/view/authentication/signUp/SignUpController.java
+ phase3.client.view.authentication.signUp.SignUpController
+phase3/client/view/personalPage/PersonalPageStringListener.java
+ phase3.client.view.personalPage.PersonalPageStringListener
+phase3/client/view/authentication/StartController.java
+ phase3.client.view.authentication.StartController
+phase3/client/config/AppImagesPathsConfig.java
+ phase3.client.config.AppImagesPathsConfig
+phase3/client/config/PathsConfig.java
+ phase3.client.config.PathsConfig
+phase3/client/controller/MainController.java
+ phase3.client.controller.MainController
+phase3/client/view/personalPage/PersonalPageController.java
+ phase3.client.view.personalPage.PersonalPageController
+phase3/client/view/personalPage/notifications/RequestController.java
+ phase3.client.view.personalPage.notifications.RequestController
+phase3/client/view/authentication/login/LoginController.java
+ phase3.client.view.authentication.login.LoginController
+phase3/client/view/MainPageController.java
+ phase3.client.view.MainPageController
+phase3/client/model/NewEvent.java
+ phase3.client.model.NewEvent
+phase3/client/view/messaging/groups/GroupOverviewController.java
+ phase3.client.view.messaging.groups.GroupOverviewController
+phase3/client/view/authentication/BackToStartListener.java
+ phase3.client.view.authentication.BackToStartListener
+phase3/client/view/personalPage/lists/ListsProfileController.java
+ phase3.client.view.personalPage.lists.ListsProfileController
+phase3/client/view/authentication/signUp/SignUpFormListener.java
+ phase3.client.view.authentication.signUp.SignUpFormListener
+phase3/client/view/messaging/pv/MessageController.java
+ phase3.client.view.messaging.pv.MessageController
+phase3/client/view/personalPage/editProfile/EditProfilePageController.java
+ phase3.client.view.personalPage.editProfile.EditProfilePageController
+phase3/client/view/messaging/categories/CategoryListener.java
+ phase3.client.view.messaging.categories.CategoryListener
+phase3/client/config/explorer/ProfileConfig.java
+ phase3.client.config.explorer.ProfileConfig
+phase3/client/view/personalPage/notifications/NotificationsPageStringListener.java
+ phase3.client.view.personalPage.notifications.NotificationsPageStringListener
+phase3/client/view/personalPage/showTweets/ShowTweetStringListener.java
+ phase3.client.view.personalPage.showTweets.ShowTweetStringListener
+phase3/client/config/tweet/ShowTweetConfig.java
+ phase3.client.config.tweet.ShowTweetConfig
+phase3/client/view/setting/SettingPageController.java
+ phase3.client.view.setting.SettingPageController
+phase3/client/view/personalPage/profileInfo/ProfileInfoController.java
+ phase3.client.view.personalPage.profileInfo.ProfileInfoController
+phase3/client/view/personalPage/notifications/NotificationsPage.java
+ phase3.client.view.personalPage.notifications.NotificationsPage
+phase3/client/view/personalPage/tweet/TweetStringListener.java
+ phase3.client.view.personalPage.tweet.TweetStringListener
+phase3/client/view/explorer/explore/ExploreTweetController.java
+ phase3.client.view.explorer.explore.ExploreTweetController
+phase3/client/controller/network/SocketEventSender.java
+ phase3.client.controller.network.SocketEventSender
+phase3/client/view/MainPageListener.java
+ phase3.client.view.MainPageListener
+phase3/client/view/messaging/MessagingPageController.java
+ phase3.client.view.messaging.MessagingPageController
+phase3/client/view/setting/privacy/PrivacyPageFormListener.java
+ phase3.client.view.setting.privacy.PrivacyPageFormListener
+phase3/client/view/LoadFXML.java
+ phase3.client.view.LoadFXML
+phase3/client/controller/EventListener.java
+ phase3.client.controller.EventListener
+phase3/client/view/authentication/login/LoginFormListener.java
+ phase3.client.view.authentication.login.LoginFormListener
+phase3/client/view/personalPage/notifications/RequestStringListener.java
+ phase3.client.view.personalPage.notifications.RequestStringListener
+phase3/client/view/explorer/search/ProfileController.java
+ phase3.client.view.explorer.search.ProfileController
+phase3/client/view/messaging/groups/GroupOverviewListener.java
+ phase3.client.view.messaging.groups.GroupOverviewListener
+phase3/client/view/messaging/groups/GroupItemController.java
+ phase3.client.view.messaging.groups.GroupItemController
+phase3/client/view/messaging/groups/GroupPageController.java
+ phase3.client.view.messaging.groups.GroupPageController
+phase3/client/view/messaging/groups/GroupMessage.java
+ phase3.client.view.messaging.groups.GroupMessage

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="phase3.client.view.personalPage.notifications.NotificationsPage">
+   <left>
+      <VBox fx:id="people" alignment="TOP_RIGHT" prefHeight="400.0" prefWidth="162.0" styleClass="dark-grey-background" stylesheets="@../../styles.css" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="166.0" prefWidth="150.0" />
+            <Button fx:id="requests" mnemonicParsing="false" onAction="#requests" prefHeight="54.0" prefWidth="159.0" styleClass="silver-background" text="Requests" />
+            <Pane prefHeight="49.0" prefWidth="162.0" />
+            <Button fx:id="systemNotifications" mnemonicParsing="false" onAction="#systemNotifications" prefHeight="56.0" prefWidth="159.0" styleClass="silver-background" text="System Notifications" />
+            <Pane prefHeight="18.0" prefWidth="162.0" />
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <BorderPane fx:id="borderPane" prefHeight="200.0" prefWidth="200.0" styleClass="grey-background" stylesheets="@../../styles.css" BorderPane.alignment="CENTER">
+         <center>
+            <ScrollPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="499.0" prefWidth="356.0">
+                     <children>
+                        <VBox fx:id="vbox" prefWidth="354.0" />
+                        <Label fx:id="state" layoutX="77.0" layoutY="227.0" prefHeight="45.0" prefWidth="203.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </center></BorderPane>
+   </center>
+</BorderPane>

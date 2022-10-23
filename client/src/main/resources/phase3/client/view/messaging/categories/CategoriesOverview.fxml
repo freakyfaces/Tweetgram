@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="phase3.client.view.messaging.categories.CategoriesOverviewController">
+    <children>
+        <ScrollPane prefHeight="265.0" prefWidth="520.0">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefWidth="520.0">
+                    <children>
+                        <VBox fx:id="categories" prefWidth="520.0" />
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <TextField fx:id="categoryName" layoutX="14.0" layoutY="282.0" prefHeight="26.0" prefWidth="170.0" promptText="Enter Category Name" />
+        <TextField fx:id="memberUsername" layoutX="14.0" layoutY="338.0" prefHeight="26.0" prefWidth="170.0" promptText="Enter Username" />
+        <Button fx:id="create" layoutX="6.0" layoutY="403.0" mnemonicParsing="false" onAction="#createCategory" text="Add Member / Create Category" />
+        <Label fx:id="state" alignment="CENTER" layoutX="134.0" layoutY="451.0" prefHeight="26.0" prefWidth="252.0" />
+      <TextField fx:id="categoryNameForMessaging" layoutX="336.0" layoutY="282.0" prefHeight="26.0" prefWidth="170.0" promptText="Enter Category Name" />
+      <TextField fx:id="messageText" layoutX="336.0" layoutY="338.0" prefHeight="26.0" prefWidth="170.0" promptText="Enter Your Message" />
+      <Button fx:id="send" layoutX="372.0" layoutY="403.0" mnemonicParsing="false" onAction="#sendMessage" text="Send Message" />
+    </children>
+</Pane>
